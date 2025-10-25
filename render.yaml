@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: hls-proxy
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
